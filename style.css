@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 html body{
     height: 100%;
     width: 100%;
@@ -15,6 +16,7 @@ html body{
     align-items: center;
     justify-content: center;
 }
+
 #box{
     height: 300px;
     width: 600px;
