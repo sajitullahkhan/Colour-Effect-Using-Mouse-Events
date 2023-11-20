@@ -10,7 +10,7 @@ box.addEventListener("mousemove", (det) => {
         gsap.to(box, {
             backgroundColor: `rgb(${colour}, 0, 0)`,
             ease: Power4
-        });
+        })
     }else{
         let colourRight = gsap.utils.mapRange(boxLocation.width/2, boxLocation.width, 0, 255, mouseLocationOnBox);
         gsap.to(box, {
